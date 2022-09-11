@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Congrats, Home, Planning, Stepper, Welcome } from "../../components";
 import logo from "../../assets/logo.png";
 import "./UserOnboard.css";
@@ -37,8 +37,7 @@ export const UserOnboard = () => {
 				</div>
 				<div className="step-sec flex flex-col justify-center gap-8">
 					<div>{getStepComponents(step)}</div>
-					<div className="px-4 w-full flex gap-4">
-				</div>
+					<div className="px-4 w-full flex gap-4"></div>
 					<button
 						className="border px-4 py-2 rounded bg-primary text-white w-full"
 						onClick={() =>
