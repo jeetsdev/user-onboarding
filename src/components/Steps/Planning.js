@@ -9,9 +9,9 @@ export const Planning = () => {
 				<h1 className="text-3xl font-semibold line">
 					How are you planning to use Eden?
 				</h1>
-				<p>We'll streamline your setup experience accordingly.</p>
+				<p className="text-slate-600 text-center my-2">We'll streamline your setup experience accordingly.</p>
 			</div>
-			<div className="flex justify-between w-full">
+			<div className="flex justify-evenly w-full">
 				<div className="flex flex-col p-4 border rounded gap-4">
 					<FaUser className="text-xl" />
 					<div>

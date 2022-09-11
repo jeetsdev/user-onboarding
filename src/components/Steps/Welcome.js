@@ -7,7 +7,7 @@ export const Welcome = () => {
 				<h1 className="text-3xl font-semibold">
 					Welcome! First things first...
 				</h1>
-				<p className="text-slate-600">You can always change them later.</p>
+				<p className="text-slate-600 text-center my-2">You can always change them later.</p>
 			</div>
 			<form
 				action=""

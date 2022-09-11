@@ -7,7 +7,7 @@ export const Home = () => {
 				<h1 className="text-3xl font-semibold">
 					Let's set up a home for all your work
 				</h1>
-				<p className="text-slate-600">
+				<p className="text-slate-600 text-center my-2">
 					You can always create another workspace later.
 				</p>
 			</div>
@@ -46,7 +46,7 @@ export const Home = () => {
 						<input
 							type="text"
 							id="username"
-							className="ml-2 py-2 px-4 outline-none"
+							className="ml-2 py-2 w-full outline-none"
 							placeholder="Example"
 						/>
 					</div>
