@@ -1,0 +1,23 @@
+.stepper-container {
+    width: 100%;
+}
+
+.progress-bar {
+    height: 6%;
+    top: 47%;
+    background-color: var(--border-color);
+}
+
+.filled-bar {
+    transition: width .3s ease-in-out;
+}
+
+.bar-steps p {
+    font-size: 100%;
+    width: 2.5em;
+    height: 2.5em;
+
+    /* Setting all then setting property to override all */
+    transition: all .3s ease-in-out;
+    transition-property: background-color border color;
+}

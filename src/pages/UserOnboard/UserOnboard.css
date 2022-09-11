@@ -1,0 +1,20 @@
+.onboard-sec{
+    min-width: 600px;
+}
+
+.stepper-sec{
+    width: 60%;
+}
+
+.step-sec{
+    min-height: 50vh;
+}
+
+.step-sec form{
+    width: 400px;
+}
+
+.step-sec button{
+    max-width: 400px;
+    margin: auto;
+}

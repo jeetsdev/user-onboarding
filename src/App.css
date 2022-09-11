@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #7d00e8;
+    --border-color:#f0f1f9;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* ! Common style here */
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.txt-primary {
+    color: var(--primary-color);
+}
+
+.border-primary {
+    border-color: var(--primary-color);
+}
